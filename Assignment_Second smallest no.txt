@@ -1,0 +1,20 @@
+n = int(input("Enter no of ele: "))
+nos = []
+while(n > 0):
+    n = n - 1
+    nos.append(input())
+    
+mini = nos[0]
+mini2 = nos[1]
+for i in nos:
+    # TODO: write code...
+    if i <= mini:
+        mini2 = mini
+        mini = i
+        
+    if i <= mini2 and i > mini:
+        mini2 = i
+print(mini)
+print(mini2)
+
+
