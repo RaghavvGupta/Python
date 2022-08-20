@@ -1,0 +1,12 @@
+t = int(input("Enter t: "))
+while(t > 0):
+    t = t - 1
+    percentage = int(input("Enter %: "))
+    if(percentage >= 90):
+        print("A")
+    
+    elif(percentage >= 60 and percentage < 90):
+        print("B")
+        
+    else:
+        print("C")
